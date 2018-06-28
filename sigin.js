@@ -13,7 +13,7 @@
 
   var authenticationData = {
         Username : 'dongaws', // your username here
-        Password : 'Lg123456!', // your password here
+        Password : '', // your password here
     };
     var authenticationDetails = 
 new AmazonCognitoIdentity.AuthenticationDetails(authenticationData);

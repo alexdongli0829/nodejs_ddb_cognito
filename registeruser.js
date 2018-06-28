@@ -19,7 +19,7 @@
     attributeList.push(attributeEmail);
 
 	var cognitoUser;
-    userPool.signUp('dongaws', 'Lg123456!', attributeList, null, function(err, result){
+    userPool.signUp('dongaws', '', attributeList, null, function(err, result){
         if (err) {
             console.log(err);
             return;
